@@ -1,0 +1,685 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NCA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#0088cc">
+<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#0088cc">
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+<!-- loader -->
+<div id="preloader-bg"></div>
+<div class="load fadeInUp">
+  <img src="images/preloader-logo.png" width="100" height="70" alt="NCA Loading" />
+  <div class="preloader-dotline">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div> 
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div> 
+    <div class="dot"></div>
+    <div class="dot"></div>    
+  </div>
+</div>
+<div id="loader" class="pageload-overlay" data-opening="M 0,0 c 0,0 63.5,-16.5 80,0 16.5,16.5 0,60 0,60 L 0,60 Z">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+    <path d="M 0,0 c 0,0 -16.5,43.5 0,60 16.5,16.5 80,0 80,0 L 0,60 Z" />
+  </svg>
+</div>
+<!-- loader end -->
+
+<!-- mobile_nav_wrapper -->
+<div id="mobile_nav_wrapper">
+	<div class="mobile-nav-content">
+		<div class="header">
+			<a href="#" class="menu-close icon-close"></a>
+			<div class="logo"><img src="images/logo.png" width="261" height="75" alt="NCA" /></div>
+		</div>
+		<ul class="mobile-nav">
+			<li class="has-children">
+				<a href="#" class="toggle">Contractors</a>
+				<ul class="sub-nav">
+					<li>
+						<a href="#">Registration</a>
+						<ul>
+							<li><a href="#">Registration process</a></li>
+							<li><a href="#">New registrations</a></li>
+							<li><a href="#">Renewal</a></li>
+							<li><a href="#">Upgrade</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Search Registered Contractors</a></li>
+					<li><a href="#">Contractor Resource Center</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Developers</a></li>
+			<li><a href="#">Construction workers</a></li>
+			<li><a href="#">Suppliers</a></li>
+			<li><a href="#">Training</a></li>
+			<li><div class="btn-feedback">Feedback</div></li>
+		</ul>
+		<div class="footer">
+			<div class="links">
+				<a href="index.html">Home</a>&#8226;
+				<a href="#">Careers</a>&#8226;
+				<a href="#">Press Center</a>&#8226;
+				<a href="#">About Us</a>&#8226;
+				<a href="#">Staff Portal</a>&#8226;
+				<a href="#">Blog</a>				
+			</div>
+			<div class="social">
+				<a href="#" class="icon-facebook"></a>
+				<a href="#" class="icon-twitter"></a>
+				<a href="#" class="icon-linkedin"></a>
+				<a href="#" class="icon-youtube"></a>				
+			</div>
+			Copyright reserved at National Construction Authority 2017
+		</div>      
+	</div>
+</div>
+<!-- mobile_nav_wrapper end -->
+
+<!-- top-menu-wrapper -->
+<div class="top-menu-wrapper">
+	<div class="wrapper">
+		<ul>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Press Center</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Staff Portal</a></li>
+		</ul>
+	</div>
+</div>
+<!-- top-menu-wrapper end -->
+
+<!-- logo-wrapper -->
+<div class="logo-wrapper">
+	<div class="wrapper tbl">
+		<div class="col">
+			<a href="index.html" class="logo">
+				<img src="images/logo.png" width="235" height="68" alt="NCA Logo" />
+			</a>
+		</div>
+		<div class="col right">
+			<div class="search-wrapper">
+				<input type="search" maxlength="100" placeholder="Search website" />
+				<button type="submit" class="icon-search"></button>
+			</div>
+			<div class="btn-mobile-search icon-search"></div>
+			<div class="btn-mobile-menu icon-menu"></div>
+		</div>
+	</div>
+</div>
+<!-- logo-wrapper end -->
+
+<!-- search-form-->
+<form method="post" action="#" class="search-form">
+	<div class="mobile-search-wrapper">
+		<input type="search" maxlength="100" class="search-box" placeholder="Search website" />
+		<button type="submit" class="icon-search"></button>
+	</div>
+</form>
+<!-- search-form end -->
+
+<!-- main-menu-wrapper -->
+<div class="main-menu-wrapper">
+	<div class="wrapper">
+		<ul id="main_nav">
+			<li class="has-children">
+				<a href="#">Contractors</a>
+				<div class="sub-menu">
+					<div class="wrapper">
+						<div class="items-wrapper">
+							<div class="sub-item">
+								<a href="#" class="menu-link">Registration</a>
+								<ul>
+									<li>
+										<a href="#">Registration process</a>
+									</li>
+									<li>
+										<a href="#">New registrations</a>
+									</li>
+									<li>
+										<a href="#">Renewal</a>
+									</li>
+									<li>
+										<a href="#">Upgrade</a>
+									</li>
+								</ul>
+							</div>
+							<div class="sub-item">
+								<a href="#" class="menu-link">Search Registered Contractors</a>
+							</div>
+							<div class="sub-item">
+								<a href="#" class="menu-link">Contractor Resource Center</a>
+							</div>
+            </div>
+					</div>
+				</div>
+			</li>
+			<li class="has-children"><a href="#">Developers</a>
+			<div class="sub-menu">
+					<div class="wrapper">
+						<div class="items-wrapper">
+							<div class="sub-item">
+								<a href="#" class="menu-link">Registration</a>
+								<ul>
+									<li>
+										<a href="#">Registration process</a>
+									</li>
+									<li>
+										<a href="#">New registrations</a>
+									</li>
+									<li>
+										<a href="#">Renewal</a>
+									</li>
+									<li>
+										<a href="#">Upgrade</a>
+									</li>
+								</ul>
+							</div>
+							<div class="sub-item">
+								<a href="#" class="menu-link">Search Registered Contractors</a>
+							</div>
+							<div class="sub-item">
+								<a href="#" class="menu-link">Contractor Resource Center</a>
+							</div>
+            </div>
+					</div>
+				</div>
+			</li>
+			<li><a href="#">Construction workers</a></li>
+			<li><a href="#">Suppliers</a></li>
+			<li><a href="#">Training</a></li>
+			<li><a href="#">Research</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+	</div>
+</div>
+<!-- main-menu-wrapper end -->
+
+<!-- alert -->
+<div class="alert">
+	<div class="wrapper">
+		<div class="icon-alert">
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+	</div>
+</div>
+<!-- alert end -->
+
+<!-- slider-wrapper -->
+<div class="slider-wrapper">	
+	<div class="home-slider owl-carousel">
+		<div class="slide">
+			<img src="images/slider/slide1.jpg" width="1940" height="480" alt="Slide1" />
+			<div class="caption-wrapper">
+				<div class="wrapper tbl">
+					<div class="caption">
+						<h2>9 Shows all under one roof</h2>
+						<a href="#" class="btn-cta icon-arrow-right"><span>Learn More</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="images/slider/slide2.jpg" width="1940" height="480" alt="Slide2" />
+			<div class="caption-wrapper">
+				<div class="wrapper tbl">
+					<div class="caption">
+						<h2>Lorem ipsum says it all</h2>
+						<a href="#" class="btn-cta icon-arrow-right"><span>Learn More</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<img src="images/slider/slide3.jpg" width="1940" height="480" alt="Slide3" />
+			<div class="caption-wrapper">
+				<div class="wrapper tbl">
+					<div class="caption">
+						<h2>Awesome caption comes here</h2>
+						<a href="#" class="btn-cta icon-arrow-right"><span>Learn More</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- slider-wrapper end -->
+
+<!-- main_content -->
+<div id="main_content">
+	<div class="wrapper">
+		<div class="text-center">
+			<h1>Who we are</h1>
+			<p class="summary">The National Construction Authority (NCA) is a gorvenment organisation which regulates, streamlines and builds capacity in the construction indusrty.</p>
+		</div>
+		
+		<!-- home-blocks-tbl -->
+		<div class="home-blocks-tbl">
+			<div class="col">
+				<a href="#" class="block">
+					<span class="img" style="background-image:url(images/find-contractor.jpg)"></span>
+					<!--<img src="images/find-contractor.jpg" width="1081" height="321" alt="Find a contractor" />-->
+					<span class="caption-wrapper">
+						<span class="caption-tbl">
+							<span class="caption">
+								<span class="title">Find a contractor</span>
+								<span class="desc">There are many variations of passages of Lorem Ipsum available,<br/>but the majority have suffered</span>
+							</span>
+						</span>
+					</span>
+				</a>
+				<div class="blocks-list">
+					<div class="block-wrapper">
+						<a href="#" class="block">
+							<span class="img" style="background-image:url(images/contractors.jpg)"></span>
+							<span class="caption-wrapper">
+								<span class="caption-tbl">
+									<span class="caption">
+										<span class="title">Contractors</span>
+										<span class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="block-wrapper">
+						<a href="#" class="block">
+							<span class="img" style="background-image:url(images/developers.jpg)"></span>
+							<span class="caption-wrapper">
+								<span class="caption-tbl">
+									<span class="caption">
+										<span class="title">Developers</span>
+										<span class="desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="block-wrapper">
+						<a href="#" class="block">
+							<span class="img" style="background-image:url(images/training.jpg)"></span>
+							<span class="caption-wrapper">
+								<span class="caption-tbl">
+									<span class="caption">
+										<span class="title">Training 2017</span>
+										<span class="desc">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+					<div class="block-wrapper">
+						<a href="#" class="block">
+							<span class="img" style="background-image:url(images/accreditation.jpg)"></span>
+							<span class="caption-wrapper">
+								<span class="caption-tbl">
+									<span class="caption">
+										<span class="title">Accreditation</span>
+										<span class="desc">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col right">
+				<div class="events-wrapper">
+					<h2>Upcoming Events</h2>
+					<ul class="events-list">
+						<li>
+							<a href="#">
+								<span class="date">February 17, 2017</span>
+								<span class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="date">February 12, 2017</span>
+								<span class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="date">February 03, 2017</span>
+								<span class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</span>
+							</a>
+						</li>
+					</ul>
+					<div class="view-all-wrapper">
+						<a href="events.html" class="view-all">View All Events</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- home-blocks-tbl end -->
+		
+		<!-- home-tabs-tbl -->
+		<div class="home-tabs-tbl">
+			<div class="col left">
+				<div class="tabs-wrapper">
+					<a href="#news" class="active">Latest News</a>
+					<a href="#downloads">Downloads</a>
+					<a href="#tenders">Tenders</a>
+					<a href="#research">Research</a>
+				</div>
+				<div id="news" class="tab-content active">
+					<ul class="news-list">
+						<li>
+							<a href="#">
+								<span class="pic-col">
+									<img src="images/news/latest/news1.jpg" width="84" height="86" alt="News Pic" />
+								</span>
+								<span class="details-col">
+									<span class="title">What is Lorem Ipsum? Contrary to popular belief</span>
+									<span class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</span>
+								</span>
+								<span class="more-col">
+									<span class="btn-more">Read More</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="pic-col">
+									<img src="images/news/latest/news2.jpg" width="84" height="86" alt="News Pic" />
+								</span>
+								<span class="details-col">
+									<span class="title">What is Lorem Ipsum? Contrary to popular belief</span>
+									<span class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</span>
+								</span>
+								<span class="more-col">
+									<span class="btn-more">Read More</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="pic-col">
+									<img src="images/news/latest/news3.jpg" width="84" height="86" alt="News Pic" />
+								</span>
+								<span class="details-col">
+									<span class="title">What is Lorem Ipsum? Contrary to popular belief</span>
+									<span class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</span>
+								</span>
+								<span class="more-col">
+									<span class="btn-more">Read More</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<div class="view-all-wrapper">
+						<a href="#" class="view-all">View All</a>
+					</div>
+				</div>
+				<div id="downloads" class="tab-content">
+					<ul class="docs-list">
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Financial Statements 30th June 2014.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-word"><span class="filename">NCA Regulations 2014.doc</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Electrical Works Task Force on Training Draft Report.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-word"><span class="filename">Lifeskills-Task Force Draft Report.doc</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<div class="view-all-wrapper">
+						<a href="#" class="view-all">View All</a>
+					</div>
+				</div>
+				<div id="tenders" class="tab-content">
+					<ul class="docs-list">
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Tender1.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Tender2.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Tender3.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Tender4.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<div class="view-all-wrapper">
+						<a href="#" class="view-all">View All</a>
+					</div>
+				</div>
+				<div id="research" class="tab-content">
+					<ul class="docs-list">
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Research1.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Research2.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Research3.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="doc-col">
+									<span class="doc icon-pdf"><span class="filename">Research4.pdf</span></span>
+								</span>
+								<span class="download-col">
+									<span class="btn-download">Download</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<div class="view-all-wrapper">
+						<a href="#" class="view-all">View All</a>
+					</div>
+				</div>
+			</div>
+			<div class="col right">
+				<a href="#">
+					<img src="images/gdn.jpg" width="387" height="453" alt="" />
+				</a>
+			</div>
+		</div>
+		<!-- home-tabs-tbl end -->
+		
+	</div>
+</div>
+<!-- main_content end -->
+
+<!-- footer -->
+<div id="footer">
+	<div class="wrapper tbl">
+		<div class="col left">
+			<h3>Contact Us</h3>
+			<p>9th Floor KCB Plaza,<br/>
+			Upper Hill, Nairobi. Kenya<br/>
+			Tel: +254700021222, +254701913723,<br/> 
+			+254701913140<br/>
+			Email: <a href="mailto:info@nca.go.ke">info@nca.go.ke</a></p>
+		</div>
+		<div class="col middle">
+			<h3>Stay Connected</h3>
+			<ul class="social-links">
+				<li><a href="#" class="icon-facebook"><span>Join us on facebook</span></a></li>
+				<li><a href="#" class="icon-twitter"><span>Follow us on twitter</span></a></li>
+				<li><a href="#" class="icon-linkedin"><span>Connect on linkedin</span></a></li>
+				<li><a href="#" class="icon-youtube"><span>Subscribe on youtube</span></a></li>
+			</ul>
+		</div>
+		<div class="col right">
+			<h3>Newsletter Subscription</h3>
+			<p>It uses a dictionary of over 200 Latin words, combined
+with a handful of model sentence structures, to gene
+Lorem Ipsum</p>
+			<div class="newsletter-wrapper">
+				<input type="email" maxlength="100" placeholder="Subscribe Today" />
+				<button type="submit" class="icon-arrow-right"></button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer end -->
+
+<!-- bottom-links-wrapper -->
+<div class="bottom-links-wrapper">
+	<div class="wrapper tbl">
+		<div class="col">
+			<ul>
+				<li><a href="#">Employee Login</a></li>
+				<li><a href="#">Disclaimer</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Sitemap</a></li>
+			</ul>
+		</div>
+		<div class="col right">Copyright reserved at National Construction Authority 2017</div>
+	</div>
+</div>
+<!-- bottom-links-wrapper end -->
+
+<!-- feeback_wrapper -->
+<div id="feedback_wrapper">
+	<div class="btn-feedback">Feedback</div>
+	<div class="feedback">
+		<div class="feedback-close icon-close"></div>
+		<div class="text-center">
+			<h2>Your Feedback</h2>
+			<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa consectetur nobis at officia ullam.</p>		
+		</div>
+		<form class="feedback-form" method="post" action="#">
+			<ul>
+				<li>
+					<label for="feedback_fullname">Name*</label>
+					<input type="text" maxlength="100" id="feedback_fullname" name="feedback_fullname" class="textbox" placeholder="" />
+				</li>
+				<li class="error">
+					<label for="feedback_email">Email Address*</label>
+					<input type="email" maxlength="100" id="feedback_email" name="feedback_email" class="textbox" placeholder="Invalid email address" />
+				</li>
+				<li class="full-width">
+					<label for="feedback_subject">Subject*</label>
+					<input type="text" maxlength="100" id="feedback_subject" name="feedback_subject" class="textbox" placeholder="" />
+				</li>
+				<li class="full-width">
+					<label for="feedback_message">Feedback*</label>
+					<textarea id="feedback_message" name="feedback_message" class="textbox" placeholder=""></textarea>
+				</li>
+				<li>
+					<button type="submit" class="btn blue icon-arrow-right"><span>Submit Feedback</span></button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</div>
+<!-- feeback_wrapper end -->
+
+
+<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
